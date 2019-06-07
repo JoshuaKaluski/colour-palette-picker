@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3d3766-2cc2-45de-9f77-45ae09c01ff6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Palette.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palette.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Palette.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palette.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,14 +28,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Palette.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="1081">
+              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Palette.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Navbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Navbar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="940">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -45,8 +75,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -65,12 +95,14 @@
         <option value="$PROJECT_DIR$/src/seedColours.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/src/seedPalettes.js" />
-        <option value="$PROJECT_DIR$/src/Palette.css" />
         <option value="$PROJECT_DIR$/src/ColourBox.css" />
         <option value="$PROJECT_DIR$/src/ColourBox.js" />
         <option value="$PROJECT_DIR$/src/colourHelpers.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Palette.css" />
         <option value="$PROJECT_DIR$/src/Palette.js" />
+        <option value="$PROJECT_DIR$/src/Navbar.js" />
+        <option value="$PROJECT_DIR$/src/Navbar.css" />
       </list>
     </option>
   </component>
@@ -156,7 +188,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559930277678</updated>
-      <workItem from="1559930278989" duration="10092000" />
+      <workItem from="1559930278989" duration="11589000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: basic Palette View.">
       <created>1559933120704</created>
@@ -186,11 +218,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559940514584</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented slider to change colour levels.">
+      <created>1559941689582</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559941689582</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Styled slider.">
+      <created>1559942263370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559942263370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10092000" />
+    <option name="totallyTimeSpent" value="11589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="40" width="1920" height="2120" extended-state="4" />
@@ -198,11 +244,11 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.3298687" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3298687" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3298687" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3298687" />
       <window_info anchor="bottom" id="Messages" weight="0.3298687" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,7 +271,9 @@
     <MESSAGE value="Styled ColourBox." />
     <MESSAGE value="Implemented overlay when a colour is copied." />
     <MESSAGE value="Created colourHelpers: contains functions to translate colour display values (ex. Hex to rgb) and to generate different colour levels." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created colourHelpers: contains functions to translate colour display values (ex. Hex to rgb) and to generate different colour levels." />
+    <MESSAGE value="Implemented slider to change colour levels." />
+    <MESSAGE value="Styled slider." />
+    <option name="LAST_COMMIT_MESSAGE" value="Styled slider." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -266,13 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Palette.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/seedPalettes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -294,13 +335,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Palette.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Palette.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="1081">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
