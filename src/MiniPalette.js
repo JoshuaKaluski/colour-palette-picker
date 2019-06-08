@@ -46,7 +46,7 @@ const styles = {
 
 function MiniPalette(props) {
   //Object destructuring of props
-  const {classes, paletteName, emoji, colours} = props;
+  const {classes, paletteName, emoji, colours, handleClick} = props;
 
   //Method to generate mini colour boxes that will form mini palettes
   const miniColourBoxes = colours.map(colour => (
@@ -54,7 +54,7 @@ function MiniPalette(props) {
   ));
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} onClick={handleClick}>
       <div className={classes.colours}>
         {/*Mini colour palettes*/}
         {miniColourBoxes}
