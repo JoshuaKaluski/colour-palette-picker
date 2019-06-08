@@ -18,17 +18,17 @@ class Palette extends Component {
     }
     render() {
         //Object destructuring of props and state
-        const {colours} = this.props.palette;
+        const {colours, paletteName, emoji} = this.props.palette;
         const {level, format} = this.state;
 
         //Generate colour boxes for the desired palette
         const colourBoxes = colours[level].map(colour => (
-            <ColourBox background={colour[format]} name={colour.name} />
+            <ColourBox key={colour.id} background={colour[format]} name={colour.name} />
         ));
 
         return (
             <div className="Palette">
-                {/*Navbar goes here*/}
+                {/*Navbar to change colour levels and format*/}
                 <Navbar
                     level={level}
                     changeLevel={this.changeLevel}
@@ -39,6 +39,10 @@ class Palette extends Component {
                     {colourBoxes}
                 </div>
                 {/*Footer*/}
+                <footer className="Palette-footer">
+                    {paletteName}
+                    <span className="emoji">{emoji}</span>
+                </footer>
             </div>
         )
     }
