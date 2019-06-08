@@ -82,7 +82,7 @@ export default [
     {
         paletteName: "Flat UI Colours Canadian",
         id: "flat-ui-colours-canadian",
-        emoji: "🇳🇱",
+        emoji: "🇨🇦️",
         colours: [
             { name: "LavenderRose", colour: "#ff9ff3" },
             { name: "GoldenTainoi", colour: "#feca57" },
