@@ -18,12 +18,17 @@ class Palette extends Component {
     }
     render() {
         //Object destructuring of props and state
-        const {colours, paletteName, emoji} = this.props.palette;
+        const {colours, paletteName, emoji, id} = this.props.palette;
         const {level, format} = this.state;
 
         //Generate colour boxes for the desired palette
         const colourBoxes = colours[level].map(colour => (
-            <ColourBox key={colour.id} background={colour[format]} name={colour.name} />
+            <ColourBox
+              key={colour.id}
+              background={colour[format]}
+              name={colour.name}
+              moreURL={`/palette/${id}/${colour.id}`}
+            />
         ));
 
         return (
