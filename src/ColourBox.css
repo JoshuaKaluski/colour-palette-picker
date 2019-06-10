@@ -8,7 +8,12 @@
     text-transform: uppercase;
 }
 
-.copy-button {
+.SingleColourPalette .ColourBox {
+    height: 50%;
+}
+
+.copy-button,
+.back-button {
     width: 100px;
     height: 30px;
     position: absolute;
@@ -25,7 +30,15 @@
     color: white;
     border: none;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.copy-button {
     opacity: 0;
+}
+
+.ColourBox.go-back {
+    background-color: black;
 }
 
 .ColourBox:hover .copy-button {
