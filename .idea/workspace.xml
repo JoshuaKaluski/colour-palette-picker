@@ -4,7 +4,7 @@
     <list default="true" id="1e3d3766-2cc2-45de-9f77-45ae09c01ff6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ColourBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColourBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColourBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColourBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Palette.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palette.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SingleColourPalette.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleColourPalette.js" afterDir="false" />
     </list>
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SingleColourPalette.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Palette.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="457">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -44,12 +44,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ColourBox.js">
+        <entry file="file://$PROJECT_DIR$/src/SingleColourPalette.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="796">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ColourBox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#257#3455#0" />
               </folding>
             </state>
           </provider>
@@ -58,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ColourBox.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="1692">
+              <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -106,13 +119,13 @@
         <option value="$PROJECT_DIR$/src/MiniPalette.js" />
         <option value="$PROJECT_DIR$/src/PaletteList.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/ColourBox.js" />
         <option value="$PROJECT_DIR$/src/Navbar.js" />
         <option value="$PROJECT_DIR$/src/Footer.js" />
         <option value="$PROJECT_DIR$/src/PaletteFooter.js" />
-        <option value="$PROJECT_DIR$/src/Palette.js" />
-        <option value="$PROJECT_DIR$/src/ColourBox.css" />
         <option value="$PROJECT_DIR$/src/SingleColourPalette.js" />
+        <option value="$PROJECT_DIR$/src/Palette.js" />
+        <option value="$PROJECT_DIR$/src/ColourBox.js" />
+        <option value="$PROJECT_DIR$/src/ColourBox.css" />
       </list>
     </option>
   </component>
@@ -163,7 +176,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -205,7 +218,7 @@
       <workItem from="1559930278989" duration="11769000" />
       <workItem from="1560007224064" duration="7952000" />
       <workItem from="1560016249233" duration="10952000" />
-      <workItem from="1560201769175" duration="1176000" />
+      <workItem from="1560201769175" duration="9086000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: basic Palette View.">
       <created>1559933120704</created>
@@ -333,11 +346,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560027440694</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added Link to return to Palette view from SingleColourPalette view.">
+      <created>1560203129573</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1560203129574</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added dynamic text colour based on the luminance of a colour box">
+      <created>1560206794243</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1560206794243</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31849000" />
+    <option name="totallyTimeSpent" value="39759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,7 +381,7 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
-      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" weight="0.32960597" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298687" />
@@ -367,7 +394,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.3298687" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3298687" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50106496" side_tool="true" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49893504" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49893504" visible="true" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -395,7 +422,9 @@
     <MESSAGE value="Implemented route to SingleColourPalette." />
     <MESSAGE value="Colours displayed in SingleColourPalette." />
     <MESSAGE value="Added Navbar and Footer to SingleColourPalette." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Navbar and Footer to SingleColourPalette." />
+    <MESSAGE value="Added Link to return to Palette view from SingleColourPalette view." />
+    <MESSAGE value="Added dynamic text colour based on the luminance of a colour box" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dynamic text colour based on the luminance of a colour box" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -457,16 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MiniPalette.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="52" column="69" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PaletteList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2021">
@@ -501,20 +520,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Palette.js">
+    <entry file="file://$PROJECT_DIR$/src/MiniPalette.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+        <state relative-caret-position="47">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleColourPalette.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ColourBox.js">
+    <entry file="file://$PROJECT_DIR$/src/Palette.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="457">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -523,17 +549,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ColourBox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="1692">
+          <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingleColourPalette.js">
+    <entry file="file://$PROJECT_DIR$/src/ColourBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="423">
+          <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#257#3455#0" />
           </folding>
         </state>
       </provider>

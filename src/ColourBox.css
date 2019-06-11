@@ -1,4 +1,4 @@
-.ColourBox {
+/*.ColourBox {
     width: 20%;
     height: 25%;
     display: inline-block;
@@ -10,7 +10,7 @@
 
 .SingleColourPalette .ColourBox {
     height: 50%;
-}
+}*/
 
 .copy-button,
 .back-button {
@@ -33,24 +33,24 @@
     text-decoration: none;
 }
 
-.copy-button {
+/*.copy-button {
     opacity: 0;
-}
+}*/
 
 .ColourBox.go-back {
     background-color: black;
 }
 
-.ColourBox:hover .copy-button {
+/*.ColourBox:hover .copy-button {
     opacity: 1;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-}
+}*/
 
-.box-content {
+/*.box-content {
     position: absolute;
     width: 100%;
     left: 0;
@@ -59,17 +59,17 @@
     color: black;
     letter-spacing: 1px;
     font-size: 12px;
-}
+}*/
 
-.light-text {
+/*.light-text {
     color: white;
 }
 
 .ColourBox .dark-text {
     color: rgba(0, 0, 0, 0.5);
-}
+}*/
 
-.view-more {
+/*.view-more {
     background-color: rgba(255, 255, 255, 0.3);
     position: absolute;
     border: none;
@@ -80,9 +80,9 @@
     height: 30px;
     text-align: center;
     line-height: 30px;
-}
+}*/
 
-.copy-overlay {
+/*.copy-overlay {
     opacity: 0;
     z-index: 0;
     width: 100%;
@@ -97,16 +97,16 @@
     -ms-transform: scale(0.1);
     -o-transform: scale(0.1);
     transform: scale(0.1);
-}
+}*/
 
-.copy-overlay.show {
+/*.copy-overlay.show {
     opacity: 1;
     transform: scale(50);
     z-index: 10;
     position: absolute;
-}
+}*/
 
-.copy-message {
+/*.copy-message {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -124,9 +124,9 @@
     transform: scale(0.1);
     opacity: 0;
     color: white;
-}
+}*/
 
-.copy-message.show {
+/*.copy-message.show {
     opacity: 1;
     transform: scale(1);
     z-index: 25;
@@ -140,9 +140,9 @@
     -ms-transition-delay: 0.2s;
     -o-transition-delay: 0.2s;
     transition-delay: 0.2s;
-}
+}*/
 
-.copy-message h1 {
+/*.copy-message h1 {
     font-weight: 400;
     text-shadow: 1px 2px black;
     background-color: rgba(255, 255, 255, 0.2);
@@ -150,10 +150,11 @@
     text-align: center;
     margin-bottom: 0;
     padding: 1rem;
-}
+}*/
 
+/*
 .copy-message p {
     font-size: 2rem;
     font-weight: 100;
     text-transform: none;
-}
+}*/
