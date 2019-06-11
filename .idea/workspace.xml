@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3d3766-2cc2-45de-9f77-45ae09c01ff6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NewPaletteForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DraggableColourBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PaletteList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaletteList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/PaletteListStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/PaletteListStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewPaletteForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewPaletteForm.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-              <folding>
-                <element signature="e#26#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PaletteList.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,11 +32,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NewPaletteForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="135" column="16" lean-forward="true" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
+            <state relative-caret-position="619">
+              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DraggableColourBox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/ColourBoxStyles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -105,6 +109,8 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/PaletteList.js" />
         <option value="$PROJECT_DIR$/src/styles/PaletteListStyles.js" />
+        <option value="$PROJECT_DIR$/src/draggableColourBox.js" />
+        <option value="$PROJECT_DIR$/src/DraggableColourBox.js" />
         <option value="$PROJECT_DIR$/src/NewPaletteForm.js" />
       </list>
     </option>
@@ -206,7 +212,7 @@
       <workItem from="1560016249233" duration="10952000" />
       <workItem from="1560201769175" duration="9278000" />
       <workItem from="1560267861035" duration="6772000" />
-      <workItem from="1560281847619" duration="3898000" />
+      <workItem from="1560281847619" duration="7447000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: basic Palette View.">
       <created>1559933120704</created>
@@ -376,11 +382,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560275446989</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Created NewPaletteForm">
+      <created>1560285881525</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1560285881525</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Linked the colour picker to the Add New Colour Button in NewPaletteForm">
+      <created>1560287482392</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560287482392</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50621000" />
+    <option name="totallyTimeSpent" value="54170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +415,7 @@
     <frame x="1920" y="40" width="1920" height="2120" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
       <window_info id="npm" order="2" side_tool="true" weight="0.32960597" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -410,7 +430,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.3298687" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3298687" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50106496" side_tool="true" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49893504" visible="true" weight="0.32822758" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49893504" visible="true" weight="0.32822758" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -441,7 +461,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit: basic Palette View." />
     <MESSAGE value="Styled ColourBox." />
     <MESSAGE value="Implemented overlay when a colour is copied." />
     <MESSAGE value="Created colourHelpers: contains functions to translate colour display values (ex. Hex to rgb) and to generate different colour levels." />
@@ -465,7 +484,9 @@
     <MESSAGE value="Refactored Palette and SingleColourPalette styles." />
     <MESSAGE value="Refactored more styles and added a new directory /src/styles to contain all the styles" />
     <MESSAGE value="Refactored Navbar styles and deleted CSS files that were converted to JSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored Navbar styles and deleted CSS files that were converted to JSS" />
+    <MESSAGE value="Created NewPaletteForm" />
+    <MESSAGE value="Linked the colour picker to the Add New Colour Button in NewPaletteForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked the colour picker to the Add New Colour Button in NewPaletteForm" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -612,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/ColourBoxStyles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2867">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/PaletteListStyles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="694">
@@ -636,10 +650,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/ColourBoxStyles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DraggableColourBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NewPaletteForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="135" column="16" lean-forward="true" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
+        <state relative-caret-position="619">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
