@@ -75,9 +75,16 @@ const styles = theme => ({
 
 
 class NewPaletteForm extends Component {
-  state = {
-    open: false,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      open: true,
+      currentColour: "steelblue",
+      colours: ["#6D213C", "#946846", "#BAAB68", "#E3C16F", "#FAFF70"]
+    };
+    this.updateCurrentColour = this.updateCurrentColour.bind(this);
+    this.addNewColour = this.addNewColour.bind(this);
+  }
 
   handleDrawerOpen = () => {
     this.setState({ open: true });
@@ -87,9 +94,19 @@ class NewPaletteForm extends Component {
     this.setState({ open: false });
   };
 
+  updateCurrentColour(newColour) {
+    this.setState({currentColour: newColour.hex})
+  }
+
+  addNewColour() {
+    let newArr = [...this.state.colours, this.state.currentColour];
+    this.setState({colours: newArr})
+  }
+
   render() {
+    //Object destructuring of props and state
     const { classes, theme } = this.props;
-    const { open } = this.state;
+    const { open, currentColour, colours } = this.state;
 
     return (
       <div className={classes.root}>
@@ -134,8 +151,18 @@ class NewPaletteForm extends Component {
             <Button variant="contained" color="secondary">Clear Palette</Button>
             <Button variant="contained" color="primary">Random Colour</Button>
           </div>
-          <ChromePicker/>
-          <Button variant="contained" color="primary">Add Colour</Button>
+          <ChromePicker
+            color={currentColour}
+            onChangeComplete={this.updateCurrentColour}
+          />
+          <Button
+            variant="contained"
+            color="primary"
+            style={{backgroundColor: currentColour}}
+            onClick={this.addNewColour}
+          >
+            Add Colour
+          </Button>
         </Drawer>
         <main
           className={classNames(classes.content, {
@@ -143,7 +170,11 @@ class NewPaletteForm extends Component {
           })}
         >
           <div className={classes.drawerHeader} />
-
+          <ul>
+            {colours.map(colour => (
+              <li style={{backgroundColor: colour}}>{colour}</li>
+            ))}
+          </ul>
         </main>
       </div>
     );
