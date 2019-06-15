@@ -14,7 +14,8 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import {ValidatorForm, TextValidator} from 'react-material-ui-form-validator';
 import {ChromePicker} from 'react-color';
 
-import DraggableColourBox from './DraggableColourBox';
+import DraggableColourList from './DraggableColourList';
+import {arrayMove} from "react-sortable-hoc";
 
 const drawerWidth = 400;
 
@@ -97,6 +98,7 @@ class NewPaletteForm extends Component {
     this.addNewColour = this.addNewColour.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.removeColour = this.removeColour.bind(this);
   }
 
   componentDidMount() {
@@ -168,6 +170,12 @@ class NewPaletteForm extends Component {
     })
   }
 
+  onSortEnd = ({oldIndex, newIndex}) => {
+    this.setState(({colours}) => ({
+      colours: arrayMove(colours, oldIndex, newIndex)
+    }))
+  };
+
   render() {
     //Object destructuring of props and state
     const { classes } = this.props;
@@ -206,7 +214,7 @@ class NewPaletteForm extends Component {
               />
               <Button
                 variant="contained"
-                color="secondary"
+                color="primary"
                 type="submit"
               >
                 Save Palette
@@ -268,14 +276,12 @@ class NewPaletteForm extends Component {
           })}
         >
           <div className={classes.drawerHeader} />
-          {colours.map(colour => (
-            <DraggableColourBox
-              key={colour.name}
-              colour={colour.colour}
-              name={colour.name}
-              handleClick={() => this.removeColour(colour.name)}
-            />
-          ))}
+          <DraggableColourList
+            colours={colours}
+            removeColour={this.removeColour}
+            axis="xy"
+            onSortEnd={this.onSortEnd}
+          />
         </main>
       </div>
     );
