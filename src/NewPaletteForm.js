@@ -162,6 +162,12 @@ class NewPaletteForm extends Component {
     this.props.history.push('/');
   }
 
+  removeColour(colourName) {
+    this.setState({
+      colours: this.state.colours.filter(colour => colour.name !== colourName)
+    })
+  }
+
   render() {
     //Object destructuring of props and state
     const { classes } = this.props;
@@ -263,7 +269,12 @@ class NewPaletteForm extends Component {
         >
           <div className={classes.drawerHeader} />
           {colours.map(colour => (
-            <DraggableColourBox colour={colour.colour} name={colour.name} />
+            <DraggableColourBox
+              key={colour.name}
+              colour={colour.colour}
+              name={colour.name}
+              handleClick={() => this.removeColour(colour.name)}
+            />
           ))}
         </main>
       </div>
