@@ -7,11 +7,10 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import {ValidatorForm, TextValidator} from 'react-material-ui-form-validator';
-import {ChromePicker} from 'react-color';
 
 import DraggableColourList from './DraggableColourList';
 import PaletteFormNav from './PaletteFormNav';
+import ColourPickerForm from './ColourPickerForm';
 import {arrayMove} from "react-sortable-hoc";
 
 const drawerWidth = 400;
@@ -84,33 +83,14 @@ class NewPaletteForm extends Component {
     super(props);
     this.state = {
       open: true,
-      currentColour: "steelblue",
-      newColourName: "",
       colours: this.props.palettes[0].colours,
     };
-    this.updateCurrentColour = this.updateCurrentColour.bind(this);
     this.addNewColour = this.addNewColour.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.removeColour = this.removeColour.bind(this);
     this.clearColours = this.clearColours.bind(this);
     this.randomColour = this.randomColour.bind(this);
-  }
-
-  componentDidMount() {
-    //Add validation to ensure the name for the new colour is unique in the palette
-    ValidatorForm.addValidationRule('isColourNameUnique', value =>
-      this.state.colours.every(
-        ({name}) => name.toLowerCase() !== value.toLowerCase()
-      )
-    );
-
-    //Add validation to ensure the new colour is unique in the palette
-    ValidatorForm.addValidationRule('isColourUnique', value =>
-      this.state.colours.every(
-        ({colour}) => colour.toLowerCase() !== this.state.currentColour.toLowerCase()
-      )
-    );
   }
 
   handleDrawerOpen = () => {
@@ -121,16 +101,8 @@ class NewPaletteForm extends Component {
     this.setState({ open: false });
   };
 
-  updateCurrentColour(newColour) {
-    this.setState({currentColour: newColour.hex})
-  }
-
-  addNewColour() {
-    let newColour = {
-      colour: this.state.currentColour,
-      name: this.state.newColourName
-    };
-    this.setState({colours: [...this.state.colours, newColour], newColourName: ""})
+  addNewColour(newColour) {
+    this.setState({colours: [...this.state.colours, newColour]})
   }
 
   handleChange(e) {
@@ -179,7 +151,7 @@ class NewPaletteForm extends Component {
   render() {
     //Object destructuring of props and state
     const { classes, maxColours, palettes } = this.props;
-    const { open, currentColour, colours, newColourName } = this.state;
+    const { open, colours } = this.state;
 
     const paletteFull = colours.length >= maxColours;
 
@@ -221,33 +193,11 @@ class NewPaletteForm extends Component {
               Random Colour
             </Button>
           </div>
-          <ChromePicker
-            color={currentColour}
-            onChangeComplete={this.updateCurrentColour}
+          <ColourPickerForm
+            paletteFull={paletteFull}
+            addNewColour={this.addNewColour}
+            colours={colours}
           />
-          <ValidatorForm onSubmit={this.addNewColour}>
-            <TextValidator
-              label="Colour Name"
-              name="newColourName"
-              value={newColourName}
-              onChange={this.handleChange}
-              validators={["required", "isColourNameUnique", "isColourUnique"]}
-              errorMessages={[
-                "Please input a name to add a colour to the palette",
-                "This name already exists for another colour in the palette",
-                "This colour already exists in the palette"
-              ]}
-            />
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
-              disabled={paletteFull}
-              style={{backgroundColor: paletteFull ? "grey" : currentColour}}
-            >
-              {paletteFull ? "Palette Full" : "Add Colour"}
-            </Button>
-          </ValidatorForm>
         </Drawer>
         <main
           className={classNames(classes.content, {
