@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3d3766-2cc2-45de-9f77-45ae09c01ff6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/styles/bg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/DraggableColourBoxStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/DraggableColourBoxStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/NavbarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/NavbarStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/PaletteFormNavStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/PaletteFormNavStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaletteList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaletteList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/PaletteListStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/PaletteListStyles.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,34 +19,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+        <entry file="file://$PROJECT_DIR$/src/PaletteList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2632">
-              <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+            <state relative-caret-position="132">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
-                <element signature="e#26#65#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/ColourBoxStyles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="107" column="21" lean-forward="true" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/NavbarStyles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
-              <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -61,31 +40,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/styles/PaletteFormNavStyles.js">
+        <entry file="file://$PROJECT_DIR$/src/styles/PaletteListStyles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state relative-caret-position="658">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/PaletteStyles.js">
+        <entry file="file://$PROJECT_DIR$/src/styles/sizes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="871">
-              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/PaletteListStyles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="470">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -129,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/Palette.css" />
         <option value="$PROJECT_DIR$/src/Navbar.css" />
         <option value="$PROJECT_DIR$/src/Navbar.js" />
-        <option value="$PROJECT_DIR$/src/styles/PaletteListStyles.js" />
         <option value="$PROJECT_DIR$/src/draggableColourBox.js" />
         <option value="$PROJECT_DIR$/src/DraggableColourList.js" />
         <option value="$PROJECT_DIR$/src/PaletteMetaForm.js" />
@@ -143,14 +112,16 @@
         <option value="$PROJECT_DIR$/src/PaletteFormNav.js" />
         <option value="$PROJECT_DIR$/src/styles/MiniPaletteStyles.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/PaletteList.js" />
-        <option value="$PROJECT_DIR$/src/styles/sizes.js" />
         <option value="$PROJECT_DIR$/src/styles/PaletteStyles.js" />
         <option value="$PROJECT_DIR$/src/styles/ColourBoxStyles.js" />
         <option value="$PROJECT_DIR$/src/MiniPalette.js" />
         <option value="$PROJECT_DIR$/src/styles/NavbarStyles.js" />
         <option value="$PROJECT_DIR$/src/styles/DraggableColourBoxStyles.js" />
         <option value="$PROJECT_DIR$/src/styles/PaletteFormNavStyles.js" />
+        <option value="$PROJECT_DIR$/src/styles/sizes.js" />
+        <option value="$PROJECT_DIR$/src/styles/bg.svg" />
+        <option value="$PROJECT_DIR$/src/PaletteList.js" />
+        <option value="$PROJECT_DIR$/src/styles/PaletteListStyles.js" />
       </list>
     </option>
   </component>
@@ -174,6 +145,11 @@
             <path>
               <item name="colour-palette-picker" type="b2602c69:ProjectViewProjectNode" />
               <item name="colour-palette-picker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="colour-palette-picker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="colour-palette-picker" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="colour-palette-picker" type="b2602c69:ProjectViewProjectNode" />
@@ -255,14 +231,7 @@
       <workItem from="1560434917169" duration="5904000" />
       <workItem from="1560631895458" duration="3813000" />
       <workItem from="1560704849618" duration="2488000" />
-      <workItem from="1560728751486" duration="21106000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit: basic Palette View.">
-      <created>1559933120704</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1559933120704</updated>
+      <workItem from="1560728751486" duration="25389000" />
     </task>
     <task id="LOCAL-00002" summary="Styled ColourBox.">
       <created>1559934454802</created>
@@ -593,11 +562,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560800201914</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Made form and NavBar responsive">
+      <created>1560801003384</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1560801003384</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Made PaletteList responsive">
+      <created>1560802369575</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1560802369576</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87663000" />
+    <option name="totallyTimeSpent" value="91946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,8 +641,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored Navbar styles and deleted CSS files that were converted to JSS" />
-    <MESSAGE value="Created NewPaletteForm" />
     <MESSAGE value="Linked the colour picker to the Add New Colour Button in NewPaletteForm" />
     <MESSAGE value="Added DraggableColourBox" />
     <MESSAGE value="Added form validation when adding a new colour to NewPaletteForm" />
@@ -683,7 +664,9 @@
     <MESSAGE value="Added delete functionality to MiniPalette" />
     <MESSAGE value="Added responsive helper and styled ColourBox" />
     <MESSAGE value="Made ColourBox responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made ColourBox responsive" />
+    <MESSAGE value="Made form and NavBar responsive" />
+    <MESSAGE value="Made PaletteList responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made PaletteList responsive" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -870,16 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PaletteList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/MiniPaletteStyles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
@@ -894,27 +867,6 @@
           <folding>
             <element signature="e#26#65#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/PaletteListStyles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/sizes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/PaletteStyles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -942,6 +894,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/PaletteFormNavStyles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/DraggableColourBoxStyles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -949,12 +911,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/PaletteFormNavStyles.js">
+    <entry file="file://$PROJECT_DIR$/src/styles/sizes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state relative-caret-position="470">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Geometric-Intersection.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repeating-Triangles.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/bg.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Confetti-Doodles.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/PaletteStyles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PaletteList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/PaletteListStyles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
