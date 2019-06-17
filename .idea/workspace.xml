@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3d3766-2cc2-45de-9f77-45ae09c01ff6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PaletteMetaForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewPaletteForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewPaletteForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaletteFormNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaletteFormNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaletteMetaForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaletteMetaForm.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NewPaletteForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="175" column="25" lean-forward="true" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
+            <state relative-caret-position="1739">
+              <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -44,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ColourPickerForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+            <state relative-caret-position="2632">
+              <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -56,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PaletteFormNav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-end-line="67" />
+            <state relative-caret-position="329">
+              <caret line="79" column="81" selection-start-line="79" selection-start-column="81" selection-end-line="79" selection-end-column="81" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -68,8 +71,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PaletteMetaForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+            <state relative-caret-position="94">
+              <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -227,7 +233,7 @@
       <workItem from="1560434917169" duration="5904000" />
       <workItem from="1560631895458" duration="3813000" />
       <workItem from="1560704849618" duration="2488000" />
-      <workItem from="1560728751486" duration="9087000" />
+      <workItem from="1560728751486" duration="13189000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: basic Palette View.">
       <created>1559933120704</created>
@@ -495,11 +501,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560784741476</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Created PaletteMetaForm">
+      <created>1560786559284</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1560786559284</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Styled PaletteMetaForm">
+      <created>1560788090735</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1560788090735</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75644000" />
+    <option name="totallyTimeSpent" value="79746000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,7 +549,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.3298687" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3298687" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159746" side_tool="true" weight="0.32768053" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49840257" visible="true" weight="0.32713348" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49840257" visible="true" weight="0.32713348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -560,8 +580,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improved styling of PaletteList and MiniPalette." />
-    <MESSAGE value="Implemented basic navigation." />
     <MESSAGE value="Implemented route to SingleColourPalette." />
     <MESSAGE value="Colours displayed in SingleColourPalette." />
     <MESSAGE value="Added Navbar and Footer to SingleColourPalette." />
@@ -585,7 +603,9 @@
     <MESSAGE value="Refactored NewPaletteForm by extracting the colour picker form into ColourPickerForm" />
     <MESSAGE value="Started styling PaletteFormNav" />
     <MESSAGE value="Styled ColourPickerForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styled ColourPickerForm" />
+    <MESSAGE value="Created PaletteMetaForm" />
+    <MESSAGE value="Styled PaletteMetaForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styled PaletteMetaForm" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -776,20 +796,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NewPaletteForm.js">
+    <entry file="file://$PROJECT_DIR$/src/ColourPickerForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="175" column="25" lean-forward="true" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
+        <state relative-caret-position="2632">
+          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ColourPickerForm.js">
+    <entry file="file://$PROJECT_DIR$/src/NewPaletteForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+        <state relative-caret-position="1739">
+          <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -798,15 +818,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PaletteMetaForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        <state relative-caret-position="94">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PaletteFormNav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-end-line="67" />
+        <state relative-caret-position="329">
+          <caret line="79" column="81" selection-start-line="79" selection-start-column="81" selection-end-line="79" selection-end-column="81" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

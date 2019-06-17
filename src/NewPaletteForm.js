@@ -110,12 +110,10 @@ class NewPaletteForm extends Component {
   }
 
   //Method to save the palette
-  handleSubmit(newPaletteName) {
-    const newPalette = {
-      paletteName: newPaletteName,
-      id: newPaletteName.toLowerCase().replace(/ /g, "-"),
-      colours: this.state.colours
-    };
+  handleSubmit(newPalette) {
+    newPalette.id = newPalette.paletteName.toLowerCase().replace(/ /g, "-");
+    newPalette.colours = this.state.colours;
+
     this.props.savePalette(newPalette);
 
     //Redirect to root

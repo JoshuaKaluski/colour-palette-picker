@@ -54,11 +54,11 @@ class PaletteFormNav extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      newPaletteName: "",
       formShowing: false
     };
     this.handleChange = this.handleChange.bind(this);
     this.showForm = this.showForm.bind(this);
+    this.hideForm = this.hideForm.bind(this);
   }
 
   handleChange(e) {
@@ -68,13 +68,16 @@ class PaletteFormNav extends Component {
   }
 
   showForm() {
-    this.setState({formShowing: true})
+    this.setState({formShowing: true});
+  }
+
+  hideForm() {
+    this.setState({formShowing: false});
   }
 
   render() {
     //Object destructuring of props and state
     const {classes, open, handleSubmit, handleDrawerOpen, palettes} = this.props;
-    const {newPaletteName} = this.state;
 
     return (
       <div className={classes.root}>
@@ -122,6 +125,7 @@ class PaletteFormNav extends Component {
         {this.state.formShowing && <PaletteMetaForm
           palettes={palettes}
           handleSubmit={handleSubmit}
+          hideForm={this.hideForm}
         />}
       </div>
     )
