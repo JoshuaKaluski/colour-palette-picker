@@ -13,7 +13,8 @@ import seedPalettes from './seedPalettes';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {palettes: seedPalettes};
+    const savedPalettes = JSON.parse(window.localStorage.getItem("palettes"));
+    this.state = {palettes: savedPalettes || seedPalettes};
     this.findPalette = this.findPalette.bind(this);
     this.savePalette = this.savePalette.bind(this);
   }
@@ -27,7 +28,14 @@ class App extends Component {
 
   //Method to save a new palette
   savePalette(newPalette) {
-    this.setState({palettes: [...this.state.palettes, newPalette]});
+    this.setState({palettes: [...this.state.palettes, newPalette]}, this.syncLocalStorage);
+
+
+  }
+
+  syncLocalStorage() {
+    //Save palettes to local storage
+    window.localStorage.setItem("palettes", JSON.stringify(this.state.palettes));
   }
 
   render() {
