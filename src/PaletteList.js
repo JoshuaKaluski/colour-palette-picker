@@ -45,8 +45,8 @@ class PaletteList extends Component {
 
   render() {
     //Object destructuring of props and state
-    const {palettes, classes, deletePalette} = this.props;
-    const {openDeleteDialog, deleteId} = this.state;
+    const {palettes, classes} = this.props;
+    const {openDeleteDialog} = this.state;
 
     return (
       <div className={classes.root}>
