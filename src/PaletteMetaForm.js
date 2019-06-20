@@ -49,7 +49,10 @@ class PaletteMetaForm extends Component {
     this.props.handleSubmit({
       paletteName: this.state.newPaletteName,
       emoji: emoji.native
-    })
+    });
+
+    //Set stage to empty string to fix emoji picker lingering after transition
+    this.setState({stage: ""});
   };
 
   render() {
