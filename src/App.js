@@ -1,14 +1,16 @@
-//React Component imports
+//Third-party imports
 import React, {Component} from 'react';
 import {Route, Switch} from 'react-router-dom';
+import {TransitionGroup, CSSTransition} from "react-transition-group";
+
+//React Components imports
 import Palette from './Palette';
 import PaletteList from './PaletteList';
 import SingleColourPalette from './SingleColourPalette';
 import NewPaletteForm from './NewPaletteForm';
 import Page from './Page';
-import {TransitionGroup, CSSTransition} from "react-transition-group";
 
-//Vanilla js imports
+//Helper imports
 import {generatePalette} from "./colourHelpers";
 import seedPalettes from './seedPalettes';
 
